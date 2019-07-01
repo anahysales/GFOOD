@@ -1,8 +1,8 @@
-CREATE DATABASE gfood;
+CREATE DATABASE dbgfood;
 
 SHOW DATABASES;
 
-USE gfood;
+USE dbgfood;
 
 CREATE TABLE cliente (
 	id INTEGER NOT NULL AUTO_INCREMENT, 
@@ -15,3 +15,4 @@ SELECT * FROM cliente;
 
 INSERT INTO cliente (nome, endereco)
 VALUES ("Helior Gustov", "Rua dos abobrinhas, - 3456");
+
